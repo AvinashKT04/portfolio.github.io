@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1189px) {
+    #logo{
+        left: 2.5rem;
+    }
+
+    .burger{
+        display: block;
+        border: 2px solid white;
+        position: absolute;
+        top: 0.7rem;
+        right: 1rem;
+        height: 1.8rem;
+        width: 2rem;
+    }
+
+    .burger span{
+        color: white;
+    }
+
+    .right{
+        height: 100%;
+        width: 12rem;
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        background: #625151;
+        transition: all 0.4s ease-out;
+    }
+
+    #navbar ul{
+        flex-direction: column;
+        position: absolute;
+        top: 3.3rem;
+        left: 1.7rem;
+    }
+
+    #navbar ul li{
+        font-size: 1.8rem;
+        margin: 1.5rem 0;
+    }
+
+    .v-class-resp{
+        display: none;
+    }
+
+    #home{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container1{
+        margin: 2rem 3rem;
+        width: 80%;
+    }
+
+    .container1 h3{
+        font-size: 1.4rem;
+    }
+
+    .container1 h1{
+        font-size: 1.8rem;
+    }
+
+    .container1 h2{
+        font-size: 1.69rem;
+    }
+
+    .container1 p{
+        font-size: 1.7rem;
+    }
+
+    .container2{
+        width: 80%;
+        justify-content: center;
+    }
+
+    .container2 img{
+        margin-top: 3rem;
+    }
+
+    .container3{
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .container3 img{
+        width: 75%;
+        margin: auto;
+    }
+
+    .container3 p{
+        margin-top: 2rem;
+    }
+
+    #skills img {
+        width: 18%;
+        margin: 1rem 1.8rem;
+    }
+
+    #contact{
+        margin-top: 82rem;
+    }
+
+    #contact-box form {
+        width: 55%;
+    }
+
+    #footer{
+        margin-top: 34rem;
+    }
+}

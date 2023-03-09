@@ -1,0 +1,280 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background: #120f0f;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 3rem;
+    background: black;
+}
+
+.navlist{
+    display: flex;
+}
+
+.right{
+    display: flex;
+}
+
+#navbar ul{
+    display: flex;
+    position: absolute;
+    right: 2.5rem;
+    top: 0.8rem;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.3rem;
+    margin: 0px 0.8rem;
+    padding: 0px 0.6rem;
+    color: white;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#navbar ul li a:hover{
+    cursor: pointer;
+    color: cyan;
+}
+
+#logo{
+    position: absolute;
+    left: 3.5rem;
+    font-size: 1.3rem;
+    color: white;
+}
+
+#logo:hover{
+    cursor: pointer;
+}
+
+#folio{
+    color: cyan;
+}
+
+.burger{
+    display: none;
+}
+
+.line{
+    width: 1.7rem;
+    background-color: white;
+    height: 0.2rem;
+    margin: 0.3rem 0.2rem;
+}
+
+#home{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.container1{
+    height: 100%;
+    width: 50%;
+    color: white;
+    margin: 8rem 7rem;
+}
+
+.container1 h3{
+    font-size: 2rem;
+}
+
+.container1 h1{
+    font-size: 3rem;
+}
+
+.container1 h2{
+    font-size: 2.5rem;
+}
+
+.container1 span{
+    color: cyan;
+}
+
+.container1 p{
+    font-size: 1.5rem;
+    margin-top: 2rem;
+}
+
+.icons{
+    margin-top: 1rem;
+    filter: invert(100%);
+}
+
+.icons a{
+    color: cyan;
+    font-size: 3rem;
+    text-decoration: none;
+    margin: 0px 15px;
+    margin-left: 0px;
+    filter: invert(100%);
+}
+
+.icons a:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.container2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+}
+
+.container2 img{
+    height: 100%;
+    width: 58%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    border: 2px solid cyan;
+    border-radius: 50%;
+}
+
+#about{
+    /* height: 60%; */
+    width: 100%;
+    display: block;
+    color: white;
+    position: absolute;
+    text-align: center;
+    background: #1f1a1a;
+}
+
+#about span{
+    color: cyan;
+}
+
+#about h1{
+    font-size: 2.5rem;
+}
+.container3{
+    /* height: 60%; */
+    width: 40%;
+    display: block;
+    margin: auto;
+    background: #3b3636;
+    border: 2px solid white;
+    border-radius: 2rem;
+    font-size: 1.5rem;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.container3 img{
+    display: block;
+    width: 30%;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+#skills{
+width: 100%;
+display: block;
+position: absolute;
+text-align: center;
+color: white;
+}
+    
+#skills h1{
+    font-size: 2.5rem;
+}
+
+.skills{
+    display: flex;
+}
+
+#skills img{
+    width: 10%;
+    margin: 0.8rem 2rem;
+}
+
+#contact{
+    width: 100%;
+    display: block;
+    position: absolute;
+    color: white;
+    margin-top: 48rem;
+    background: #1f1a1a;
+}
+#contact h1{
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#contact span{
+    color: cyan;
+}
+
+#contact-box{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 34px;
+}
+
+#contact-box input,
+#contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border: 9px;
+    font-size: 1.1rem;
+}
+
+#contact-box form{
+    width: 40%;
+}
+
+#contact-box label{
+    font-size: 1.5rem;
+}
+
+.btn{
+    font-size: 1.2rem;
+    border: 2px solid black;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+.btn{
+    font-size: 1.2rem;
+    border: 2px solid white;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+    margin: 0.2rem 0;
+    background: #1f1a1a;
+    color: white;
+}
+
+.btn:hover{
+    color: cyan;
+}
+
+footer{
+    width: 100%;
+    display: block;
+    position: absolute;
+    text-align: center;
+    color: white;
+    margin-top: 82rem;
+    background-color: black;
+    font-size: 1.3rem;
+    padding: 0.4rem 0;
+}
